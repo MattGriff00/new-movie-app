@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import FilmList from "./components/FilmList";
-import FavouritesList from "./components/FavouritesList"
+import Favourites from "./components/Favourites"
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <NavBar /> 
         <Switch>
           <Route path="/FilmList" exact component={() => <FilmList />} />
-          <Route path="/FavouritesList" exact component={() => <FavouritesList />} />
+          <Route path="/Favourites" exact component={() => <Favourites />} />
         </Switch>
       </Router>
     </div>  

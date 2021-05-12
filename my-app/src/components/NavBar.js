@@ -12,16 +12,15 @@ const NavBar = (prop) => {
 
       <Nav pills> 
         <NavItem>
-          <Link to="/FavouriteList">Favorites</Link>
+          <Link to="/FilmList">All Films</Link>
         </NavItem>
       </Nav>
 
       <Nav pills> 
         <NavItem>
-          <Link to="/FilmList">All Films</Link>
+          <Link to="/Favourites">Favorites</Link>
         </NavItem>
-      </Nav>
-            
+      </Nav>     
     </div>
   );
 }
