@@ -1,6 +1,8 @@
 import React from "react";
+//import Favourites from FilmList
 
 function Favourites() {
+
 
   const movies = [{
     "Title": "Star Wars: Episode IV - A New Hope",
