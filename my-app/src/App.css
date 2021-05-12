@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.btn{
+  margin: 2rem;
+}
+
+.card{
+  width: 100%;
+  border: 5px solid blue;
+}
+
+.list{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.card-img{
+  position: relative;
+	transition: transform 0.2s;
+  padding: 2rem;
+}
+
+.card-img:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.nav{
+  display: inline;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.image-container{
+  border: 5px solid red;
+}
+
+.image-container:hover .overlay {
+	opacity: 0.75;
+}
+
+.overlay {
+	position: absolute;
+	background: black;
+  color: white;
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.f-list{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
